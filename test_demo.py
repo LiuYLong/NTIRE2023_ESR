@@ -22,8 +22,15 @@ def select_model(args, device):
         model_path = os.path.join('model_zoo', 'team00_rfdn.pth')
         model = RFDN()
         model.load_state_dict(torch.load(model_path), strict=True)
+    elif model_id == 4:
+        from models.team04_GataFormer import GateFormer
+        name, data_range = f"{model_id:04}_GataFormer_baseline", 255.0
+        model_path = os.path.join('model_zoo', 'team04_gataformer.pth')
+        model = GateFormer()
+        model.load_state_dict(torch.load(model_path)['params'], strict=True)
     else:
         raise NotImplementedError(f"Model {model_id} is not implemented.")
+
 
     # print(model)
     model.eval()
