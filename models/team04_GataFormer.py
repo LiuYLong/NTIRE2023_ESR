@@ -128,12 +128,6 @@ class Upsampler(nn.Sequential):
         super(Upsampler, self).__init__(*layer_list)
 
 
-
-
-
-
-
-
 class GateModule(nn.Module):
     r"""Gate Module.
     """
@@ -235,16 +229,3 @@ class GateFormer(nn.Module):
         add_x = self.add_mean(tail_x)
 
         return add_x
-
-
-# if __name__ == '__main__':
-#     def count_parameters(model):
-#         return sum(p.numel() for p in model.parameters() if p.requires_grad)
-#
-#
-#     net = GateFormer(upscale=4, num_in_ch=3, num_out_ch=3, task='lsr',
-#                      planes=54, num_layers=48, block_type='1111conv', inter_rate=2)
-#     print(count_parameters(net))
-#
-#     data = torch.randn(1, 3, 48, 48)
-#     print(net(data).size())
