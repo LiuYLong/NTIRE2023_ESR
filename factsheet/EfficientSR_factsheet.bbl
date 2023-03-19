@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{agustsson2017ntire}
+Eirikur Agustsson and Radu Timofte.
+\newblock Ntire 2017 challenge on single image super-resolution: Dataset and
+  study.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, pages 126--135, 2017.
+
+\bibitem{chen2022simple}
+Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, and Jian Sun.
+\newblock Simple baselines for image restoration.
+\newblock In {\em Computer Vision--ECCV 2022: 17th European Conference, Tel
+  Aviv, Israel, October 23--27, 2022, Proceedings, Part VII}, pages 17--33.
+  Springer, 2022.
+
+\bibitem{child2019generating}
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever.
+\newblock Generating long sequences with sparse transformers.
+\newblock {\em arXiv preprint arXiv:1904.10509}, 2019.
+
+\bibitem{kingma2014adam}
+Diederik~P Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{kitaev2020reformer}
+Nikita Kitaev, {\L}ukasz Kaiser, and Anselm Levskaya.
+\newblock Reformer: The efficient transformer.
+\newblock {\em arXiv preprint arXiv:2001.04451}, 2020.
+
+\bibitem{lim2017enhanced}
+Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu~Lee.
+\newblock Enhanced deep residual networks for single image super-resolution.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, pages 136--144, 2017.
+
+\bibitem{touvron2022resmlp}
+Hugo Touvron, Piotr Bojanowski, Mathilde Caron, Matthieu Cord, Alaaeldin
+  El-Nouby, Edouard Grave, Gautier Izacard, Armand Joulin, Gabriel Synnaeve,
+  Jakob Verbeek, et~al.
+\newblock Resmlp: Feedforward networks for image classification with
+  data-efficient training.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2022.
+
+\end{thebibliography}
