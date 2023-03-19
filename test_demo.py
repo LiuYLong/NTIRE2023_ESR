@@ -23,9 +23,9 @@ def select_model(args, device):
         model = RFDN()
         model.load_state_dict(torch.load(model_path), strict=True)
     elif model_id == 4:
-        from models.team04_GataFormer import GateFormer
-        name, data_range = f"{model_id:04}_GataFormer_baseline", 255.0
-        model_path = os.path.join('model_zoo', 'team04_gataformer.pth')
+        from models.team04_GateFormer import GateFormer
+        name, data_range = f"{model_id:04}_GateFormer_baseline", 255.0
+        model_path = os.path.join('model_zoo', 'team04_gateformer.pth')
         model = GateFormer()
         model.load_state_dict(torch.load(model_path)['params'], strict=True)
     else:
